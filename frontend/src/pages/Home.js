@@ -320,8 +320,8 @@ let SubContent = styled.div`
   .detail {
     display: flex;
     align-items: flex-start;
-    gap: 30px;
-    margin-top: 120px;
+    gap: 40px;
+    margin-top: 140px;
   }
   .detailImg {
     width: 320px;
