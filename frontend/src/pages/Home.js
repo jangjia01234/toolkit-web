@@ -156,6 +156,20 @@ const Home = () => {
             성향에 따라 목표를 실천하고 지속하는 방법이 달라요. <br />
             자신도 모르는 사이에 원하는 습관을 만들어줄 방법을 추천합니다.
           </h6>
+          <div className="detail">
+            <img
+              className="detailImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzdrpW%2FbtrW38fOOLH%2FztH04ip9GVtQFdsFM1xuJ0%2Fimg.png"
+            ></img>
+            <img
+              className="detailImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbnnvUx%2FbtrW2uXJUrj%2Foxr5cH65WlpEDWGqgPs6ok%2Fimg.png"
+            ></img>
+            <img
+              className="detailImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlxZGB%2FbtrW55JTgit%2F8b3NkSXChzmiO3x44QSB8k%2Fimg.png"
+            ></img>
+          </div>
         </SubContent>
       </AppLayout>
     </div>
@@ -302,5 +316,15 @@ let SubContent = styled.div`
     font-weight: 100;
     text-align: center;
     line-height: 145%;
+  }
+  .detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 120px;
+  }
+  .detailImg {
+    width: 320px;
+    height: 450px;
   }
 `;
