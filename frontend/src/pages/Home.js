@@ -14,7 +14,9 @@ const Home = () => {
             </span>
             <span>Menu</span>
           </div>
-          <Logo href="/">T👀lKit</Logo>
+          <a className="logo" href="/">
+            T👀lKit
+          </a>
           <div>Account</div>
         </NavBar>
         <MainContent>
@@ -164,17 +166,26 @@ let NavBar = styled.div`
   .hamburgerIcon {
     margin-right: 10px;
   }
-`;
-
-let Logo = styled.a`
-  text-decoration: none;
-  color: white;
-  font-family: "ClimateCrisisKRVF";
-  font-size: 35px;
-  &:hover {
-    cursor: pointer;
+  .logo {
+    text-decoration: none;
+    color: white;
+    font-family: "ClimateCrisisKRVF";
+    font-size: 35px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 `;
+
+// let Logo = styled.a`
+//   text-decoration: none;
+//   color: white;
+//   font-family: "ClimateCrisisKRVF";
+//   font-size: 35px;
+//   &:hover {
+//     cursor: pointer;
+//   }
+// `;
 
 let MainContent = styled.div`
   width: 100%;
