@@ -34,76 +34,103 @@ const Home = () => {
 
         <Sliding>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpXJiV%2FbtrW5625GKB%2FkcIUe8BgpKkz1vbFcBLlIk%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpXJiV%2FbtrW5625GKB%2FkcIUe8BgpKkz1vbFcBLlIk%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkYVM7%2FbtrW0OB8BcB%2FCTcwF6uWnqYO7L8dGoilyk%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkYVM7%2FbtrW0OB8BcB%2FCTcwF6uWnqYO7L8dGoilyk%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbh5TXK%2FbtrWTJB898A%2FkuTmhawgc1axywE6CRMeK1%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbh5TXK%2FbtrWTJB898A%2FkuTmhawgc1axywE6CRMeK1%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgzpBu%2FbtrW77m6ZEE%2FWK3usxRy3uvkdq1NzzQfP1%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgzpBu%2FbtrW77m6ZEE%2FWK3usxRy3uvkdq1NzzQfP1%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr2hhm%2FbtrW2uckLa1%2Fy7LchSmW97nppBNDOqk3F1%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr2hhm%2FbtrW2uckLa1%2Fy7LchSmW97nppBNDOqk3F1%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpXJiV%2FbtrW5625GKB%2FkcIUe8BgpKkz1vbFcBLlIk%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpXJiV%2FbtrW5625GKB%2FkcIUe8BgpKkz1vbFcBLlIk%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkYVM7%2FbtrW0OB8BcB%2FCTcwF6uWnqYO7L8dGoilyk%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkYVM7%2FbtrW0OB8BcB%2FCTcwF6uWnqYO7L8dGoilyk%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbh5TXK%2FbtrWTJB898A%2FkuTmhawgc1axywE6CRMeK1%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbh5TXK%2FbtrWTJB898A%2FkuTmhawgc1axywE6CRMeK1%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgzpBu%2FbtrW77m6ZEE%2FWK3usxRy3uvkdq1NzzQfP1%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgzpBu%2FbtrW77m6ZEE%2FWK3usxRy3uvkdq1NzzQfP1%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
           <Card>
             <img
@@ -149,6 +176,7 @@ let AppLayout = styled.div`
   background: linear-gradient(to left, #5532ee, #151a3c);
   ::-webkit-scrollbar {
     display: none;
+  }
 `;
 
 let NavBar = styled.div`
