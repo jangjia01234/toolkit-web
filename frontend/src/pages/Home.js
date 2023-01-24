@@ -17,8 +17,9 @@ const Home = () => {
           <a className="logo" href="/">
             T👀lKit
           </a>
-          <div>Account</div>
+          <span>Account</span>
         </NavBar>
+
         <MainContent>
           <h1 className="mainTitle">
             당신을 위한 <br />
@@ -30,6 +31,7 @@ const Home = () => {
             자신도 모르는 사이에 원하는 습관을 만들어줄 방법을 추천합니다.
           </h6>
         </MainContent>
+
         <Sliding>
           <Card>
             <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpXJiV%2FbtrW5625GKB%2FkcIUe8BgpKkz1vbFcBLlIk%2Fimg.png"></Shape>
@@ -104,14 +106,18 @@ const Home = () => {
             </ShapeText>
           </Card>
           <Card>
-            <Shape src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr2hhm%2FbtrW2uckLa1%2Fy7LchSmW97nppBNDOqk3F1%2Fimg.png"></Shape>
-            <ShapeText>
+            <img
+              className="shapeImg"
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr2hhm%2FbtrW2uckLa1%2Fy7LchSmW97nppBNDOqk3F1%2Fimg.png"
+            ></img>
+            <h1 className="shapeTitle">
               New year
               <br />
               New me
-            </ShapeText>
+            </h1>
           </Card>
         </Sliding>
+
         <Content>
           <h1 class="contentTitle">새해 계획, 어떻게 실천할까?</h1>
           <h6 class="contentText">
@@ -177,16 +183,6 @@ let NavBar = styled.div`
   }
 `;
 
-// let Logo = styled.a`
-//   text-decoration: none;
-//   color: white;
-//   font-family: "ClimateCrisisKRVF";
-//   font-size: 35px;
-//   &:hover {
-//     cursor: pointer;
-//   }
-// `;
-
 let MainContent = styled.div`
   width: 100%;
   display: flex;
@@ -226,43 +222,36 @@ let Sliding = styled.div`
 `;
 
 let Card = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 15px;
   min-width: 220px;
   height: 320px;
-  // background-color: #5532ee;
-  // background-image: url("../assets/img/nwnm.png");
-  // background-size: cover;
-  // background-repeat: none;
   padding: 20px;
+  background: #5532ee;
+  background: -webkit-radial-gradient(center, #5532ee, #f794a6);
+  background: -moz-radial-gradient(center, #5532ee, #f794a6);
+  background: radial-gradient(ellipse at center, #5532ee, #f794a6);
   &:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition: all 0.4s;
   }
-  /* Created with https://www.css-gradient.com */
-  background: #5532ee;
-  background: -webkit-radial-gradient(center, #5532ee, #f794a6);
-  background: -moz-radial-gradient(center, #5532ee, #f794a6);
-  background: radial-gradient(ellipse at center, #5532ee, #f794a6);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-let Shape = styled.img`
-  width: 150px;
-  height: 150px;
-  margin-bottom: 40px;
-`;
-
-let ShapeText = styled.span`
-  color: #e7e7e7;
-  font-weight: 800;
-  font-family: "KIMM_Bold";
-  font-size: 25px;
-  text-align: center;
-  font-style: italic;
+  .shapeImg {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+  }
+  .shapeTitle {
+    color: #e7e7e7;
+    font-weight: 800;
+    font-family: "KIMM_Bold";
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+  }
 `;
 
 let Content = styled.div`
