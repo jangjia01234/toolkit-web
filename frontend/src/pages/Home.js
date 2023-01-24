@@ -33,116 +33,120 @@ const Home = () => {
         </MainContent>
 
         <Sliding>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpXJiV%2FbtrW5625GKB%2FkcIUe8BgpKkz1vbFcBLlIk%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkYVM7%2FbtrW0OB8BcB%2FCTcwF6uWnqYO7L8dGoilyk%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbh5TXK%2FbtrWTJB898A%2FkuTmhawgc1axywE6CRMeK1%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgzpBu%2FbtrW77m6ZEE%2FWK3usxRy3uvkdq1NzzQfP1%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr2hhm%2FbtrW2uckLa1%2Fy7LchSmW97nppBNDOqk3F1%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpXJiV%2FbtrW5625GKB%2FkcIUe8BgpKkz1vbFcBLlIk%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkYVM7%2FbtrW0OB8BcB%2FCTcwF6uWnqYO7L8dGoilyk%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbh5TXK%2FbtrWTJB898A%2FkuTmhawgc1axywE6CRMeK1%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgzpBu%2FbtrW77m6ZEE%2FWK3usxRy3uvkdq1NzzQfP1%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
-          <Card>
-            <img
-              className="shapeImg"
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr2hhm%2FbtrW2uckLa1%2Fy7LchSmW97nppBNDOqk3F1%2Fimg.png"
-            ></img>
-            <h1 className="shapeTitle">
-              New year
-              <br />
-              New me
-            </h1>
-          </Card>
+          <section className="cardSection">
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpXJiV%2FbtrW5625GKB%2FkcIUe8BgpKkz1vbFcBLlIk%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                New year
+                <br />
+                New me
+              </h1>
+            </Card>
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkYVM7%2FbtrW0OB8BcB%2FCTcwF6uWnqYO7L8dGoilyk%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                Hobby
+                <br />
+                Records
+              </h1>
+            </Card>
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbh5TXK%2FbtrWTJB898A%2FkuTmhawgc1axywE6CRMeK1%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                Make a
+                <br />
+                Schedule
+              </h1>
+            </Card>
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgzpBu%2FbtrW77m6ZEE%2FWK3usxRy3uvkdq1NzzQfP1%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                Workout
+                <br />
+                Note
+              </h1>
+            </Card>
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr2hhm%2FbtrW2uckLa1%2Fy7LchSmW97nppBNDOqk3F1%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                Check my
+                <br />
+                Emotion
+              </h1>
+            </Card>
+          </section>
+          <section className="cardSection">
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpXJiV%2FbtrW5625GKB%2FkcIUe8BgpKkz1vbFcBLlIk%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                New year
+                <br />
+                New me
+              </h1>
+            </Card>
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkYVM7%2FbtrW0OB8BcB%2FCTcwF6uWnqYO7L8dGoilyk%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                Hobby
+                <br />
+                Records
+              </h1>
+            </Card>
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbh5TXK%2FbtrWTJB898A%2FkuTmhawgc1axywE6CRMeK1%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                Make a
+                <br />
+                Schedule
+              </h1>
+            </Card>
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgzpBu%2FbtrW77m6ZEE%2FWK3usxRy3uvkdq1NzzQfP1%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                Workout
+                <br />
+                Note
+              </h1>
+            </Card>
+            <Card>
+              <img
+                className="shapeImg"
+                src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr2hhm%2FbtrW2uckLa1%2Fy7LchSmW97nppBNDOqk3F1%2Fimg.png"
+              ></img>
+              <h1 className="shapeTitle">
+                Check my
+                <br />
+                Emotion
+              </h1>
+            </Card>
+          </section>
         </Sliding>
 
         <Content>
@@ -237,7 +241,7 @@ let MainContent = styled.div`
 let Sliding = styled.div`
   display: flex;
   padding: 40px 0 100px 0;
-  gap: 24px;
+  gap: 20px;
   max-width: 100vw;
   width: 100%;
   height: 100%;
@@ -247,9 +251,17 @@ let Sliding = styled.div`
   ::-webkit-scrollbar {
     display: none;
   }
+  .cardSection {
+    display: flex;
+    gap: 20px;
+  }
 `;
 
 let Card = styled.div`
+  background: #5532ee;
+  background: -webkit-radial-gradient(center, #5532ee, #f794a6);
+  background: -moz-radial-gradient(center, #5532ee, #f794a6);
+  background: radial-gradient(ellipse at center, #5532ee, #f794a6);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -258,10 +270,6 @@ let Card = styled.div`
   min-width: 220px;
   height: 320px;
   padding: 20px;
-  background: #5532ee;
-  background: -webkit-radial-gradient(center, #5532ee, #f794a6);
-  background: -moz-radial-gradient(center, #5532ee, #f794a6);
-  background: radial-gradient(ellipse at center, #5532ee, #f794a6);
   &:hover {
     cursor: pointer;
     transform: scale(1.05);
