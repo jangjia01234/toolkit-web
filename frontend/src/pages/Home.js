@@ -149,14 +149,14 @@ const Home = () => {
           </section>
         </Sliding>
 
-        <Content>
+        <SubContent>
           <h1 class="contentTitle">새해 계획, 어떻게 실천할까?</h1>
           <h6 class="contentText">
             매년 야심차게 세운 목표가 흐지부지해져 자책하고 있나요? <br />
             성향에 따라 목표를 실천하고 지속하는 방법이 달라요. <br />
             자신도 모르는 사이에 원하는 습관을 만들어줄 방법을 추천합니다.
           </h6>
-        </Content>
+        </SubContent>
       </AppLayout>
     </div>
   );
@@ -290,7 +290,7 @@ let Card = styled.div`
   }
 `;
 
-let Content = styled.div`
+let SubContent = styled.div`
   margin: 150px 0 250px 0;
   .contentTitle {
     font-size: 30px;
