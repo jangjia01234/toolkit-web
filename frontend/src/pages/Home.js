@@ -8,23 +8,25 @@ const Home = () => {
     <div className="Home">
       <AppLayout>
         <NavBar>
-          <MenuBar>
-            <Icon>
+          <div className="menuBar">
+            <span className="hamburgerIcon">
               <i class="fa-solid fa-bars"></i>
-            </Icon>
+            </span>
             <span>Menu</span>
-          </MenuBar>
+          </div>
           <Logo href="/">T👀lKit</Logo>
           <div>Account</div>
         </NavBar>
-        <MainTitle>
-          당신을 위한 <br />
-          키트✨를 찾아보세요
-        </MainTitle>
         <MainContent>
-          매년 야심차게 세운 목표가 흐지부지해져 자책하고 있나요? 성향에 따라
-          목표를 실천하고 지속하는 방법이 달라요. <br />
-          자신도 모르는 사이에 원하는 습관을 만들어줄 방법을 추천합니다.
+          <h1 className="mainTitle">
+            당신을 위한 <br />
+            키트✨를 찾아보세요
+          </h1>
+          <h6 className="mainText">
+            매년 야심차게 세운 목표가 흐지부지해져 자책하고 있나요? 성향에 따라
+            목표를 실천하고 지속하는 방법이 달라요. <br />
+            자신도 모르는 사이에 원하는 습관을 만들어줄 방법을 추천합니다.
+          </h6>
         </MainContent>
         <Sliding>
           <Card>
@@ -109,12 +111,12 @@ const Home = () => {
           </Card>
         </Sliding>
         <Content>
-          <Title>새해 계획, 어떻게 실천할까?</Title>
-          <Description>
+          <h1 class="contentTitle">새해 계획, 어떻게 실천할까?</h1>
+          <h6 class="contentText">
             매년 야심차게 세운 목표가 흐지부지해져 자책하고 있나요? <br />
             성향에 따라 목표를 실천하고 지속하는 방법이 달라요. <br />
             자신도 모르는 사이에 원하는 습관을 만들어줄 방법을 추천합니다.
-          </Description>
+          </h6>
         </Content>
       </AppLayout>
     </div>
@@ -133,12 +135,10 @@ let AppLayout = styled.div`
   color: white;
   font-weight: 400;
   overflow: hidden;
-  /* Created with https://www.css-gradient.com */
   background: #5532ee;
   background: -webkit-linear-gradient(right, #5532ee, #151a3c);
   background: -moz-linear-gradient(right, #5532ee, #151a3c);
   background: linear-gradient(to left, #5532ee, #151a3c);
-
   ::-webkit-scrollbar {
     display: none;
 `;
@@ -152,32 +152,18 @@ let NavBar = styled.div`
   width: 100%;
   padding: 20px;
   font-size: 18px;
-  // // background-color: #06060e;
-  // background-image: linear-gradient(
-  //   90deg,
-  //   hsl(251deg 85% 56%) 0%,
-  //   hsl(232deg 68% 34%) 9%,
-  //   hsl(231deg 54% 14%) 26%,
-  //   hsl(240deg 40% 4%) 47%,
-  //   hsl(240deg 40% 4%) 72%,
-  //   hsl(240deg 40% 4%) 100%
-  // );
-  /* Created with https://www.css-gradient.com */
   background: #5532ee;
   background: -webkit-linear-gradient(right, #5532ee, #151a3c);
   background: -moz-linear-gradient(right, #5532ee, #151a3c);
   background: linear-gradient(to left, #5532ee, #151a3c);
-`;
-
-let MenuBar = styled.div`
-  display: flex;
-  &:hover {
-    cursor: pointer;
+  .menuBar {
+    &:hover {
+      cursor: pointer;
+    }
   }
-`;
-
-let Icon = styled.i`
-  margin-right: 10px;
+  .hamburgerIcon {
+    margin-right: 10px;
+  }
 `;
 
 let Logo = styled.a`
@@ -190,24 +176,27 @@ let Logo = styled.a`
   }
 `;
 
-let MainTitle = styled.div`
-  display: flex;
-  align-items: flex-start;
-  margin: 250px 0 100px 0;
-  padding-left: 100px;
-  font-size: 50px;
-  font-family: "ClimateCrisisKRVF";
-  width: 100%;
-`;
-
 let MainContent = styled.div`
   width: 100%;
-  padding-left: 100px;
-  font-size: 18px;
-  font-weight: 100;
-  text-align: left;
-  line-height: 145%;
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  .mainTitle {
+    align-items: flex-start;
+    margin: 250px 0 100px 0;
+    padding-left: 100px;
+    font-size: 50px;
+    font-family: "ClimateCrisisKRVF";
+    width: 100%;
+  }
+  .mainText {
+    width: 100%;
+    padding-left: 100px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 145%;
+    margin-bottom: 100px;
+  }
 `;
 
 let Sliding = styled.div`
@@ -267,17 +256,15 @@ let ShapeText = styled.span`
 
 let Content = styled.div`
   margin: 150px 0 250px 0;
-`;
-
-let Title = styled.div`
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 40px;
-`;
-
-let Description = styled.div`
-  font-size: 18px;
-  font-weight: 100;
-  text-align: center;
-  line-height: 145%;
+  .contentTitle {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .contentText {
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 145%;
+  }
 `;
