@@ -1,4 +1,4 @@
-## Getting Started
+## Getting Started ✅️
 패키지 매니저로 npm을 사용합니다. 없는 경우 다음 명령어로 설치해주세요
 
 ```
